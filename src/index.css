@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    cursor: none;
+    background-color: #0B0C10;
+  }
+  
+  /* Form input text color and background adjustments */
+  input[type="text"], input[type="password"] {
+    background-color: #0B0C10 !important;
+    color: white !important;
+  }
+  
+  /* Checkbox styling */
+  input[type="checkbox"] {
+    background-color: #0B0C10;
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  a, button, [role="button"], input, select, textarea, .cursor-pointer {
+    cursor: none;
+  }
+  
+  @media (max-width: 768px) {
+    body, a, button, [role="button"], input, select, textarea, .cursor-pointer {
+      cursor: auto;
+    }
+  }
+}
