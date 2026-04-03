@@ -39,4 +39,15 @@ Proje en güncel web teknolojileri kullanılarak inşa edilmiştir:
 
 **Not:** Şu anda projeye lisans oluşturma ve yönetimi için kendi bilginiz ile KeyAuth veya benzeri auth servislerini kolayca entegre edebilirsiniz (kod yapısı buna müsaittir). Bir sonraki sürüm güncellemesinde projeye **KeyAuth** entegrasyonunu bizzat ben ekleyip paylaşacağım.
 
+## 🛠 Teknik Detaylar ve Kurulum
+
+**Frontend:** React.js
+**Stil:** Tailwind CSS
+**Özellikler:** Dinamik ürün listeleme, responsive tasarım ve kolay özelleştirilebilir yapı.
+
+**Kurulum Adımları:**
+1. Projeyi klonlayın: `git clone https://github.com/sely1337/basic-cheat-site.git`
+2. Frontend (Arayüz) klasörüne girip `npm install` çalıştırın ve ardından `npm run dev` ile başlatın.
+3. Backend klasörüne girip (`cd server`) `npm install` çalıştırın ve `node index.js` ile sunucuyu ayağa kaldırın.
+
 Scriptin geliştirilmesi, entegrasyonu veya sorularınız için konu altından yazabilirsiniz. İyi forumlar! 
