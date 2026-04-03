@@ -1,4 +1,4 @@
-#  Basit Hile Satış sitesi gelişitirilmeye acık.
+#  Basit Hile Satış & Yönetim Sitesi (Geliştirilmeye Açık)
 
 Selamlar CheatGlobal üyeleri,
 
